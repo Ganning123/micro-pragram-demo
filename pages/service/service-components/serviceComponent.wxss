@@ -1,0 +1,26 @@
+/* pages/service/service-components/serviceComponet.wxss */
+.service-item {
+  display: flex;
+  padding: 20rpx;
+}
+
+.img {
+  width: 35%;
+  height: 170rpx;
+}
+
+.content {
+  display: flex;
+  padding-left: 20rpx;
+  flex-direction: column;
+  font-size: 32rpx;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.tag {
+  font-size: 28rpx;
+  padding: 5rpx 10rpx;
+  border: solid 1rpx #f7982a;
+  color: #f7982a;
+}

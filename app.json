@@ -1,6 +1,7 @@
 {
   "pages": [
-    "pages/space/space",
+    "pages/service/service",
+    "pages/service-detail/service-detail",
     "pages/index/index"
   ],
   "window": {
@@ -9,6 +10,5 @@
     "navigationBarTitleText": "WeChat",
     "navigationBarTextStyle": "black"
   },
-  "style": "v2",
   "sitemapLocation": "sitemap.json"
 }

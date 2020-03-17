@@ -5,7 +5,50 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    serviceInfos: [
+      {
+        imgUrl: "http://img.mukewang.com/57fdecf80001fb0406000338-240-135.jpg",
+        comName: '上海派特信息技术有限公司',
+        tag: '法律咨询',
+        cityName: '上海'
+      },
+      {
+        imgUrl: "http://img.mukewang.com/57fdecf80001fb0406000338-240-135.jpg",
+        comName: '上海派特信息技术有限公司',
+        tag: '法律咨询',
+        cityName: '上海'
+      },
+      {
+        imgUrl: "http://img.mukewang.com/57fdecf80001fb0406000338-240-135.jpg",
+        comName: '上海派特信息技术有限公司',
+        tag: '法律咨询',
+        cityName: '上海'
+      },
+      {
+        imgUrl: "http://img.mukewang.com/57fdecf80001fb0406000338-240-135.jpg",
+        comName: '上海派特信息技术有限公司',
+        tag: '法律咨询',
+        cityName: '上海'
+      },
+      {
+        imgUrl: "http://img.mukewang.com/57fdecf80001fb0406000338-240-135.jpg",
+        comName: '上海派特信息技术有限公司',
+        tag: '法律咨询',
+        cityName: '上海'
+      },
+      {
+        imgUrl: "http://img.mukewang.com/57fdecf80001fb0406000338-240-135.jpg",
+        comName: '上海派特信息技术有限公司',
+        tag: '法律咨询',
+        cityName: '上海'
+      },
+      {
+        imgUrl: "http://img.mukewang.com/57fdecf80001fb0406000338-240-135.jpg",
+        comName: '上海派特信息技术有限公司',
+        tag: '法律咨询',
+        cityName: '上海'
+      },
+    ]
   },
 
   /**

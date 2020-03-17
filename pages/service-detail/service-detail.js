@@ -1,27 +1,25 @@
-// pages/space/space.js
+// pages/service-detail/service-detail.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    autoplay: true,
-    bannerImages: ["http://139.196.218.128/SjPark/UserFile/Files/Thumbnail/46932530-4bc8-48dc-bf10-1e5e39d254b8_750x470.png", "http://139.196.218.128/SjPark/UserFile/Files/Thumbnail/73efa039-6c54-43c6-8ad9-70f831723e2e_750x470.png", "http://139.196.218.128/SjPark/UserFile/Files/Thumbnail/eb8bbf4d-e236-4c92-900c-67d8b941b02a_750x470.png"],
-    pageNumber: '01'
-  },
 
-  setCurrent(e) {
-    let pageNumber = e.detail.current < 10 ? '0' + (e.detail.current + 1) : e.detail.current + 1;
-    this.setData({
-      pageNumber
-    })
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function(options) {
-
+    this.setData({
+      serviceDetail: {
+        imgUrl: "http://img.mukewang.com/57fdecf80001fb0406000338-240-135.jpg",
+        comName: options.id,
+        tag: '法律咨询',
+        cityName: '上海'
+      }
+    })
   },
 
   /**

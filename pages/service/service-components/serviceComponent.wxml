@@ -1,0 +1,9 @@
+<!--pages/service/service-components/serviceComponet.wxml-->
+<navigator class="service-item" url="../service-detail/service-detail?id={{comName}}">
+  <image class="img" src="{{imgUrl}}" mode="aspectFill"></image>
+  <view class="content">
+    <view class="com-name">{{comName}}</view>
+    <text class="tag">{{tag}}</text>
+    <view class="city-name">服务城市：{{cityName}}</view>
+  </view>
+</navigator>

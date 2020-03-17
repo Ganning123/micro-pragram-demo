@@ -1,0 +1,5 @@
+<!--pages/service-detail/service-detail.wxml-->
+<view>
+  <service-detail imgUrl="{{serviceDetail.imgUrl}}" comName="{{serviceDetail.comName}}" tag="{{serviceDetail.tag}}" cityName="{{serviceDetail.cityName}}"></service-detail>
+  <button>立即咨询</button>
+</view>

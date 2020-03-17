@@ -1,2 +1,9 @@
 <!--pages/service/service.wxml-->
-<text>pages/service/service.wxml</text>
+<view>
+  <input class="weui-input" auto-focus placeholder="请输入关键字查询" />
+  <button class="title">服务商入驻</button>
+  <view>服务类别服务城市</view>
+  <scroll-view scroll-y="true" style="height: 950rpx;">
+    <service-component wx:for="{{serviceInfos}}" imgUrl="{{item.imgUrl}}" cityName="{{item.cityName}}" comName="{{item.comName + (index + 1)}}" tag="{{item.tag}}"></service-component>
+  </scroll-view>
+</view>

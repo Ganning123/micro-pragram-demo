@@ -1,8 +1,12 @@
 <!--pages/space/space.wxml-->
 <view class="container">
-  <swiper class="banners" indicator-dots="{{false}}" autoplay="{{autoplay}}" interval="{{4000}}" duration="{{500}}">
+  <swiper class="banners" bindchange="setCurrent" indicator-dots="{{false}}" autoplay="{{autoplay}}" interval="{{4000}}" duration="{{500}}">
     <swiper-item wx:for="{{bannerImages}}">
       <image src="{{item}}"></image>
     </swiper-item>
   </swiper>
+  <view class="page-num">
+    <text>{{pageNumber}}/{{bannerImages.length < 10 ? '0' + bannerImages.length : bannerImages.length}}</text>
+  </view>
+  
 </view>
