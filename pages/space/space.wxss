@@ -1,0 +1,5 @@
+/* pages/space/space.wxss */
+.banners {
+  width: 100%;
+  height: 360rpx;
+}

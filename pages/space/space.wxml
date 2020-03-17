@@ -1,0 +1,8 @@
+<!--pages/space/space.wxml-->
+<view class="container">
+  <swiper class="banners" indicator-dots="{{false}}" autoplay="{{autoplay}}" interval="{{4000}}" duration="{{500}}">
+    <swiper-item wx:for="{{bannerImages}}">
+      <image src="{{item}}"></image>
+    </swiper-item>
+  </swiper>
+</view>

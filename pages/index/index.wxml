@@ -1,0 +1,16 @@
+<!--index.wxml-->
+<view class="container">
+  <swiper class="banner" indicator-dots="{{true}}" autoplay="{{true}}" interval="{{3000}}" duration="{{300}}">
+    <block wx:for="{{banners}}" wx:key="*this">
+      <swiper-item>
+        <image src="{{item}}" mode="aspectFill"></image>
+      </swiper-item>
+    </block>
+  </swiper>
+  <view class="menus">
+    <navigator class="menu" wx:for="{{menus}}" wx:key="{{item.image}}" url="../{{item.url}}/{{item.url}}">
+      <image src="{{item.image}}" mode="aspectFill"></image>
+      <text>{{item.txt}}</text>
+    </navigator>
+  </view>
+</view>
